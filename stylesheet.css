@@ -1,0 +1,367 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://i.ibb.co/RBJPHk6/background-1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.navbar .logo{
+    font-family: 'Knewave';
+    padding-right: 120px;
+    font-size: 17px;
+}
+.navbar{
+    background-color: #5C5470;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: 'kanit';
+    transition: all .3s;
+}
+.navbar a:hover{
+    background-color: #BB2525;
+}
+.navbar a.active{
+    background-color: #BB2525;
+}
+.navbar .icon{
+    display: none;
+}
+
+/*----------------------nav-bar-ends----------------------------------*/
+.wrap1{
+    display: flex;
+    justify-content:space-around ;
+
+}
+.cof-img img{
+    width: 100%;
+}
+.cof-head{
+    width: 100%;
+    padding: 25px 25px;
+}
+.cof-head h2{
+    font-family:'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    color: #BB2525;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+.cof-txt{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #7a7676;
+}
+.cof-pgph{
+    text-align: left;
+    text-justify: distribute-all-lines;
+    font-family:'Knewave';
+    color: #636161;
+    font-weight: 300;
+    font-size: 14px;
+}
+/*-----------------------------wrap-1-ends-------------------------------------------------------*/
+#menu-area{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+}
+#coffee-products h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    color: #BB2525;
+}
+.coffee-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+    width: 200px;
+    height: 340px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+}
+.menu-box img{
+    padding: 20px;
+    width: 130px;
+}
+.product-name{
+    text-align:center;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #BB2525;
+}
+.product-disc{
+    text-align:center;
+    font-size: 10px;
+    font-family: 'verdana';
+    font-weight: 600;
+    color:#9DB2BF;
+    padding: 10px;
+}
+#price{
+    text-align:center;
+    font-size: 15px;
+    font-family: 'verdana';
+    font-weight: 600;
+    color:#352F44;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
+#btn{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 600;
+    color:#fff;
+    padding: 10px 50px;
+    background-color: #E74646;
+    border-radius: 5px;
+
+}
+/*---------------------------------------- coffee products end*/
+
+.coff-mach-ban{
+    display: flex;
+    flex-direction: column;
+}
+#cof-mach-tit{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 50px auto;
+    font-size: 20px;
+    color: #BB2525;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+#cof-mach-area{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.cof-maker-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+    width: 200px;
+    height: 340px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-align: center
+}
+.maker-menu-box{
+    width: 200px;
+}
+.maker-menu-box img{
+    width: 130px;
+    padding: 20px;
+}
+
+/*---------------------------------------coffee maker end----------------------------*/
+
+.bottom-sec{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #BB2525;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    flex-wrap: wrap;
+}
+.left-box{
+    padding:20px;
+    width: 20%;
+    color: #ffffff;
+}
+.left-box h3{
+    font-size: 15px;
+    font-family: 'Montserrat','sans-serif';
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.left-box .content p{
+    font-size: 12px;
+    font-family: 'Montserrat','sans-serif';
+    padding-bottom: 15px;
+}
+.social a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+.center-box{
+    color: #ffffff;
+    padding: 20px;
+    width: 20%;
+}
+.center-box h3{
+    font-size: 15px;
+    font-family: 'Montserrat','sans-serif';
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.center-box .content .place,.phone,.email{
+    padding-top: 8px;
+}
+.center-box .content .text{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px;
+    font-family: 'Montserrat','sans-serif';
+    text-transform: capitalize;
+}
+.right-box{
+    color: #ffffff;
+    width: 30%;
+    padding: 20px;
+}
+.right-box h3{
+    font-size: 15px;
+    font-family: 'Montserrat','sans-serif';
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.right-box .content .email .text{
+    font-family: 'Montserrat','sans-serif';
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.right-box .content .email input{
+    font-size: 15px;
+    padding: 3px;
+}
+.right-box .content .message{
+    font-family: 'Montserrat','sans-serif';
+    text-transform: capitalize;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.right-box .content .msg #msg-area{
+    font-size: 15px;
+    padding: 3px;
+}
+.right-box .content .btn button{
+    color: #BB2525;
+    font-size: 15px;
+    font-family:'Montserrat','sans-serif' ;
+    padding: 6px 75px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.bottom-sec .desginer-info{
+    width: 100%;
+}
+.bottom-sec .desginer-info p{
+    font-family:'Montserrat','sans-serif' ;
+    color: #fff;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+/*------------media-quires-----------*/
+
+@media screen  and (max-width: 915px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon{
+        float: right;
+        display: block;
+    }
+}
+@media  screen and (max-width: 915px){
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+        
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+/*---------------------------*/
+@media screen and (max-width: 805px){
+    .bottom-sec{
+        display: block;
+    }
+    .left-box, .center-box, .right-box{
+        width: 90%;       
+    }
+}
+@media screen and (max-width: 1000px){
+    .wrap1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap1 .cof-img{
+        margin: 0 auto;
+    }
+    .cof-head{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1000px){
+    .cof-pgph{
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 456px){
+    .cof-txt{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #coffee-products h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+

@@ -363,5 +363,27 @@ a{
         margin-bottom: 20px;
     }
 }
-
-
+@media screen and (max-width:680px){
+    .coffee-menu{
+        margin: 15px;
+        width: 150px;
+        height: 290px;
+    }
+    .coffee-menu .product-name{
+        font-size: 10px;
+    }
+    .menu-box img{
+        width: 90px;
+        padding: 10px;
+    }
+    .product-disc{
+        font-size: 9px;
+    }
+    #price{
+        font-size: 12px
+    }
+    #btn{
+        font-size: 10px;
+        padding: 10px 40px;
+    }
+}

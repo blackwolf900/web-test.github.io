@@ -365,7 +365,7 @@ a{
 }
 @media screen and (max-width:680px){
     .coffee-menu{
-        margin: 15px;
+        margin: 10px;
         width: 150px;
         height: 290px;
     }
@@ -385,5 +385,53 @@ a{
     #btn{
         font-size: 10px;
         padding: 10px 40px;
+    }
+    .cof-maker-menu{
+        margin: 10px;
+        width: 150px;
+        height: 290px;
+    }   
+    .maker-menu-box img{
+        width: 90px;
+        padding: 10px;
+    }
+    .menu-content .product-name{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:335px){
+    .coffee-menu{
+        margin: 7px;
+        width: 120px;
+        height: 260px;
+    }
+    .coffee-menu .product-name{
+        font-size: 10px;
+    }
+    .menu-box img{
+        width: 70px;
+        padding: 10px;
+    }
+    .product-disc{
+        font-size: 8px;
+    }
+    #price{
+        font-size: 11px
+    }
+    #btn{
+        font-size: 9px;
+        padding: 10px 30px;
+    }
+    .cof-maker-menu{
+        margin: 7px;
+        width: 120px;
+        height: 260px;
+    }   
+    .maker-menu-box img{
+        width: 70px;
+        padding: 10px;
+    }
+    .menu-content .product-name{
+        font-size: 10px;
     }
 }

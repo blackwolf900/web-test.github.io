@@ -399,7 +399,7 @@ a{
         font-size: 10px;
     }
 }
-@media screen and (max-width:335px){
+@media screen and (max-width:358px){
     .coffee-menu{
         margin: 7px;
         width: 120px;
@@ -409,7 +409,7 @@ a{
         font-size: 10px;
     }
     .menu-box img{
-        width: 80px;
+        width: 90px;
         padding: 10px;
     }
     .product-disc{
@@ -428,7 +428,7 @@ a{
         height: 260px;
     }   
     .maker-menu-box img{
-        width: 80px;
+        width: 90px;
         padding: 10px;
     }
     .menu-content .product-name{
